@@ -1,0 +1,47 @@
+body {background-color:  #001954;
+text-align:  center;
+}
+p{
+	color: white;
+	font-family:  Arial;
+	font-size:  4em;
+	margin: 20px;
+	font-weight: bold;
+	text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+select{
+	width:  300px;
+	height:  50px;
+	margin:  20px;
+	border: none;
+	border-radius:  10px;
+	font-family:  arial;
+	text-align:  center;
+	font-size:  1.3em;
+}
+input{
+	width:  300px;
+	height:  50px;
+	margin:  20px;
+	border: none;
+	border-radius:  10px;
+	font-family:  arial;
+	text-align:  center;
+	font-size:  1.3em;
+}
+label{
+	color: white;
+	width:  300px;
+	height:  50px;
+	margin-top:  5px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: none;
+	font-family:  arial;
+	text-align:  left;
+	font-size:  1em;
+	display: inline-block;
+	font-weight: bold;
+	text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
