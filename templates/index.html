@@ -6,6 +6,7 @@
     <link rel="stylesheet"  href="{{
       url_for('static', filename='css/main.css')}}">
 </head>
+<div class="container">
 <body>
    <br>
    <form action="MyRacePace" method="post">
@@ -21,9 +22,16 @@
          <option value="3.1">5K</option>
       </select>
       <br>
-      <input type="number" name="hour" required value="0">
-      <input type="number" name="minutes" required value="0">
-      <input type="number" name="seconds" required value="0"><br>
+      <select type= "number" name="hour" required value="0">
+         <option value="0">0</option>
+         <option value="1">1</option>
+         <option value="2">2</option>
+         <option value="3">3</option>
+         <option value="5">5</option>
+         <option value="6">6</option>
+      </select>
+      <input type="number" name="minutes" required value="0" min="0">
+      <input type="number" name="seconds" required value="0" min="0"><br>
       <label for="hour">Hours</label>
       <label for="minutes">Minutes</label>
       <label for="seconds">Seconds</label>
@@ -31,4 +39,5 @@
       <input type="submit" value="Calculate" id="calculate">
    </form>
 </body>
+</div>
 </html>

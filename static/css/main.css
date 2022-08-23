@@ -1,5 +1,11 @@
-body {background-color:  #001954;
-text-align:  center;
+body {
+	background-color:  #001954;
+	text-align:  center;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
 }
 p{
 	color: white;
@@ -10,7 +16,7 @@ p{
 	text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
 }
 select{
-	width:  300px;
+	width:  200px;
 	height:  50px;
 	margin:  20px;
 	border: none;
@@ -20,7 +26,7 @@ select{
 	font-size:  1.3em;
 }
 input{
-	width:  300px;
+	width:  200px;
 	height:  50px;
 	margin:  20px;
 	border: none;
@@ -31,7 +37,7 @@ input{
 }
 label{
 	color: white;
-	width:  300px;
+	width:  200px;
 	height:  50px;
 	margin-top:  5px;
 	margin-bottom: 20px;
@@ -44,4 +50,9 @@ label{
 	display: inline-block;
 	font-weight: bold;
 	text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+div {
+	text-align:  center;
+	
+  	position: relative;
 }
