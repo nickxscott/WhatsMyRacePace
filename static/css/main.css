@@ -10,37 +10,37 @@ body {
 p{
 	color: white;
 	font-family:  Arial;
-	font-size:  4em;
+	font-size:  3em;
 	margin: 20px;
 	font-weight: bold;
 	text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
 }
 select{
-	width:  200px;
-	height:  50px;
+	width:  125px;
+	height:  40px;
 	margin:  20px;
 	border: none;
 	border-radius:  10px;
 	font-family:  arial;
 	text-align:  center;
-	font-size:  1.3em;
+	font-size:  1.2em;
 }
 input{
-	width:  200px;
-	height:  50px;
+	width:  125px;
+	height:  40px;
 	margin:  20px;
 	border: none;
 	border-radius:  10px;
 	font-family:  arial;
 	text-align:  center;
-	font-size:  1.3em;
+	font-size:  1.2em;
 }
 label{
 	color: white;
-	width:  200px;
-	height:  50px;
-	margin-top:  5px;
-	margin-bottom: 20px;
+	width:  125px;
+	height:  40px;
+	margin-top:  3px;
+	margin-bottom: 15px;
 	margin-left: 20px;
 	margin-right: 20px;
 	border: none;
