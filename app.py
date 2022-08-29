@@ -29,7 +29,7 @@ def get_race_pace():
 
     race_pace = str(pace_minutes) + ":" + str(pace_seconds_padded)
     
-    flash("My Race Pace = " + race_pace)
+    flash("My Race Pace = " + race_pace + "/mile")
     
     return render_template('index.html')
 
